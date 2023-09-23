@@ -1,0 +1,12 @@
+Câu 1:
+- List chỉ chứa một tập các dữ liệu
+- Còn Dictonary ngoài chứa các dữ liệu có thể gán giá trị theo dạng {key : value}
+
+Câu 3:
+B
+
+Câu 4:
+C
+
+Câu 5:
+A
