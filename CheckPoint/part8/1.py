@@ -48,4 +48,7 @@ match a:
         skill = GameCharacterSkill["Skill 3"]
 
 print(f"You chose {skill["Name"]}")
-if skill["Minimum level"]
+if skill["Minimum level"] > GameCharacter["Level"]:
+    print("Cannot deploy. Required level" ,{skill["Minimum level"]})
+else:
+    print("Damage:", {GameCharacterSkill["DAMAGE"]})
