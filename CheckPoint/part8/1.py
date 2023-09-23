@@ -39,3 +39,12 @@ for i in GameCharacterSkill:
 
 a = int(input("Choose skill by number:"))
 
+match a:
+    case 1:
+        skill = GameCharacterSkill["Skill 1"]
+    case 2:
+        skill = GameCharacterSkill["Skill 2"]
+    case 3:
+        skill = GameCharacterSkill["Skill 3"]
+
+print("")
