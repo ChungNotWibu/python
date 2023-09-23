@@ -47,4 +47,5 @@ match a:
     case 3:
         skill = GameCharacterSkill["Skill 3"]
 
-print("")
+print(f"You chose {skill["Name"]}")
+if skill["Minimum level"]
