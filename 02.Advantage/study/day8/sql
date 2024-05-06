@@ -1,0 +1,102 @@
+# student
+
+CREATE TABLE Students (
+    StudentID INTEGER PRIMARY KEY,
+    Name TEXT,
+    Age INTEGER,
+    Gender TEXT
+);
+
+# Courses
+
+CREATE TABLE Courses (
+    CoursesID INTEGER PRIMARY KEY,
+    CourseName TEXT,
+    Credits INTEGER
+);
+
+# Enrollments 
+
+CREATE TABLE Enrollments (
+    EnrollmentID INTEGER PRIMARY KEY,
+    StudentID INTEGER,
+    CoursesID INTEGER,
+    Grade REAL,
+    FOREIGN KEY (StudentID) REFERENCES Students(StudentID),
+    FOREIGN KEY (CoursesID) REFERENCES Courses(CoursesID),
+
+)
+
+
+
+#câu1
+SELECT ID,Name,Age,Gender
+FROM Students;
+
+#câu2
+SELECT Name
+FROM Courses;
+
+#câu3
+SELECT Students.Name, Enrollments.Grade
+FROM Students
+JOIN Enrollments ON StudentID = Enrollments.StudentID
+JOIN Courses ON Enrollments.CoursesID = Courses.ID
+WHERE Courses.Name = "Math";
+
+#câu4
+SELECT Name
+FROM Students
+WHERE ID IN (SELECT StudentID FROM Enrollments WHERE Grade > 80);
+
+#câu5
+SELECT Students.Name , SUM(Courses.Credits) AS TotalCredits
+FROM Students
+JOIN Enrollments ON Students.ID = Enrollments.StudentID
+JOIN Courses ON Enrollments.CoursesID = Courses.ID
+GROUP BY Students.Name;
+
+#câu6
+SELECT Students.Name, COUNT(*) AS NumberOFCourses
+FROM Students
+JOIN Enrollments ON Students.ID = Enrollments.StudentID
+GROUP BY Students.Name;
+
+#câu7
+UPDATE Enrollments
+SET Grade = 80
+WHERE StudentID = 3 AND CoursesID = 103;
+
+#câu8
+DELETE FROM Students
+WHERE ID = 4;
+DELETE FROM Enrollments
+WHERE StudentID = 4;
+
+
+
+#student
+INSERT INTO Students (StudentID,Name,Age,Gender) VALUES
+(1, 'John', 20, 'Male'),
+(2, 'Emma', 22, 'Female'),
+(3, 'Alex', 21, 'Male'),
+(4, 'Sarah', 23, 'Female'),
+(5, 'Michael', 24, 'Male');
+
+#courses 
+INSERT INTO Courses (CourseID, CourseName, Credits) VALUES
+(101, 'Math', 4),
+(102, 'Physics', 3),
+(103, 'Chemistry', 3),
+(104, 'Literature', 3),
+(105, 'History', 3);
+
+#enrollments 
+INSERT INTO Enrollments (EnrollmentID, StudentID, CourseID, Grade) VALUES
+(1, 1, 101, 85),
+(2, 1, 102, 78),
+(3, 2, 101, 92),
+(4, 3, 103, 75),
+(5, 4, 104, 88),
+(6, 5, 105, 91),
+(7, 5, 101, 79);

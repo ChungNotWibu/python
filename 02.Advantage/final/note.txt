@@ -1,0 +1,21 @@
+about canvas :
+
+5 phần :
+phần 1 - giới thiệu , thông tin cơ bản
+        + Hình ảnh , Tiêu đề , giải thích kiểu dữ liệu
+
+phần 2 - phân tích chi tiết về 1 tướng : 
+vd 1 champ
+        + có các kiểu dữ liệu sau: tên , mức độ sài , điểm , tỷ lệ
+
+phần 3 - biểu đồ phân tích
+        + phân phối tướng theo mức độ sài
+        + biểu đồ cột về đánh giá các tướng (rank)
+        + biểu đồ đường về tỉ lệ ban Pick
+        + biểu đồ tròn về tỉ lệ win rate
+        + top tier
+(thêm chú thích)
+phần 4 - giải thích và nêu ý nghĩa
+    
+phần 5 - show demo 
+

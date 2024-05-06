@@ -1,0 +1,20 @@
+    câu 1:
+Class là 1 tập để định nghĩa các thuộc tính như biến và các hàm , phương thức mà đối tượng trong lớp đó dùng. 1 Lớp có thể dùng chung 
+
+Object là 1 phiên bản rõ hơn của lớp. Nó được tạo ra từ lớp và sử dụng các thuộc tính , các hàm trong lớp đó.
+
+Vd: 
+1 class là fruit thì trong đó là những trái cây
+còn object là banana-fruit
+
+    câu 2:
+Tác dụng : để khởi tạo các thuộc tính và cbi thực hiện công việc cho đối tượng
++ Khởi tạo thuộc tính
++ Thực hiện công việc ban đầu
++ Truyền tham số
+
+    câu 3: C
+
+    câu 4: A
+
+    câu 5: C

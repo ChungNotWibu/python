@@ -1,0 +1,6 @@
+Kế thừa
+
+cú pháp:
+class Sub(Sup):
+    def __init__(self):
+        super.

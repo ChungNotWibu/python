@@ -1,0 +1,23 @@
+Và ô văn kê chào mừng mọi người đến với buổi thuyết trình về dự án cuối khóa của mình.
+ Trước tiên thì tên của mình là Lê Hoàng Trung mọi người có thể gọi mình là Trung. 
+ mình sinh năm 2006 và đã gắn bó mindx đc hơn 1 năm và tói với khóa
+CSA03 này thì mình sẽ giới thiệu tới mọi người về dự án data analyst của mình
+ Chủ đề sản phẩm lần này mình làm chính là các dữ liệu về các tướng trong 1 bộ game moba 5v5 nổi tiếng khắp thế giới 
+ - League of Legend hay còn gọi là liên minh huyền thoại
+ Mình nhận thấy là với những người mới bắt đầu tập chơi thì làm quen với các champion - 
+các tướng trong game này khá là khó khăn, việc lựa chọn 1 champ
+phù hợp với xu hướng lúc đó - hay còn gọi là meta thì chẳng phải là chuyện dễ dàng gì. 
+Vậy nên để giúp họ có thể thích nghi nhanh cũng như tìm được 1 
+nhân vật phù hợp để dễ dàng chiến thắng, không bán mạng cho đồng đội! thì dự án này của 
+mình sẽ giúp người mới có thể hòa nhập nhanh chóng với meta 
+hiện tại và những người chơi khác có thể tham khảo
+ Mình đã kiếm được dữ liệu của các tướng mùa 13.13 và xử lý nó qua matplotlib 
+ Lúc đầu thì các tập dữ liệu dưới định dạng csv thì nó sẽ trông như thế này và khá là khó khăn để lọc thông tin
+ Nhưng mà chỉ bằng với việc sử dụng pandas
+ 
+ Vậy thì bộ dữ liệu này - bộ data này có những gì ? 
+ Nó bao gồm tất cả các tướng của mùa 13.13
+ Mỗi tướng sẽ có cho mình các thông tin về class,role,tier, score ,trend,win accurate,role accurate       
+
+Thêm cột 
+

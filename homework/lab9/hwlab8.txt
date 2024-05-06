@@ -1,0 +1,26 @@
+Câu 1:
+- Được tổ chức theo cấu trúc dữ liệu DataFrame và Series
+- Kiểu DataFrame : 
+    + Là dữ liệu 2 chiều. 
+    + Có dạng bảng có hàng và cột. 
+    + Mỗi cột của DataFrame lại là 1 Series :))
+- Kiểu Series :  
+    + Là dữ liệu 1 chiều, gồm 1 chuỗi các giá trị cùng 1 kiểu dữ liệu
+    + Kèm theo 1 mục index
+    + Thường được sử dụng để biểu diễn hàng hoặc cột của DataFrame
+    
+Câu 2:
+CSV = Comma-Separated Values
+- phân cách các ô dữ liệu bằng dấu "," 
+- mỗi dòng trong file csv tương ứng 1 hàng trong bảng, mỗi giá trị đc chia bằng dấu ngăn cách
+
+Câu 3:
+A và C
+
+Câu 4:
+D
+
+Câu 5:
+C
+
+

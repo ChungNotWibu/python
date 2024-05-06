@@ -1,0 +1,18 @@
+câu 1:
+    Special methods: bắt đầu và kết thúc bằng "__"
+        - khác với các phương thức thông thường ở chỗ :
+            + TỰ động gọi 
+            + Dùng cho toán tử
+            + Cấp bậc lớn hơn
+            + Tùy chỉnh hiển thị và định dạng
+
+Câu 2:
+    Có thế không áp dụng tính kế thừa : 2 lớp không chia sẻ nhiều thuộc tính chung, việc sử dụng kế thừa có thể không cần thiết
+    Nếu không áp dụng tính kế thừa : mỗi lớp độc lập , có định nghĩa riêng biệt khác nhau về các thuộc tính
+    Có thể áp dụng tính kế thừa : Tái sử dụng code, giảm sự lặp lại
+    Nếu áp dụng tính kế thừa : tạo 1 class cha chung 
+   
+Câu 3: B
+Câu 4: A
+Cây 5: C
+
